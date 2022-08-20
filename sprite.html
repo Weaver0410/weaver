@@ -1,0 +1,48 @@
+<TDOCTYPE html>
+
+    <html lang="en">
+    
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprite Animation/title
+    </head>
+    <body>
+    <canvas id="mycanvas"></canvas>
+    <button onclick="moveLeft()">left</button>  
+    <button onclick="moveRight()">Right</button>
+    <script>
+    var canvasWidth=658;
+    var canvasHeight=358
+    var spriteWidth=864;
+    var spriteHeight=280;
+    var rows=2; var cols=8;
+    var trackRight=0;
+    var tracklleft=1;
+    var width=spriteWidth/cols;
+    var height=spriteHeight/rows;
+    var curFrame=0;
+    var frameCount=8;
+    var x=0;
+    var y=208;
+    var srcx;
+    var srcy;
+    var left=false;
+    var right=true; 
+    var speed=12;
+
+var canvas=document.getElementById("mycanvas");
+canvas.width=canvasWidth; 
+canvas.height=canvasHeight;
+var ctx=canvas.getContext ("2d");
+var character=new Image();
+character.src="ctctr.png"
+function updateFrame()
+{
+srcX=
+}
+</script>
+
+</body>
+
+</html>
